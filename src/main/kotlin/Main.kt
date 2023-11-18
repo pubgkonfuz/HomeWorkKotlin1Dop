@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
         var number = i + 1
         println("$number) ${list[i].carMake}")
     }
-    println("Напишите номер, о котором хотите узнать:")
+    print("Напишите номер, о котором хотите узнать:")
     val number = scanner.nextInt() - 1
 
     for (i in list.indices) {
