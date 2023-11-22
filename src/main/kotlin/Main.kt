@@ -1,3 +1,5 @@
+import cars.Car
+import cars.Cars
 import java.util.*
 
 fun main(args: Array<String>) {
@@ -14,7 +16,7 @@ fun main(args: Array<String>) {
     )
 
     for (i in list.indices) {
-        var number = i + 1
+        val number = i + 1
         println("$number) ${list[i].carMake}")
     }
     print("Напишите номер, о котором хотите узнать:")
